@@ -64,3 +64,17 @@ model = load_model('my_model.h5')
 끝
 
   
+## history 
+
+- 이거도 tensorboard 된다
+- history = model.fit() 하면됨 model.fit의 리턴이 걍 히스토리임 
+  history.history['loss'] 이런식
+- matplotlib 으로도 그래프 그거 할수 있음 참고 : https://tykimos.github.io/Keras/2017/07/09/Training_Monitoring/ ㄱㅅ요 
+
+- ~/.keras/keras.json 에서 백엔드를 텐플로 지정하고나서
+- 텐서보드라는 콜백함수가 있음 keras.callbacks.TensorBoard(~) 하고서 저거를  model.fit 할때 파라미터로 넣어주면됨
+그러면 저거 콜백함수에 지정하는게 있음 log_dir 여기에 텐서보드 그 로그 생김
+
+ㅎㅇ
+
+
