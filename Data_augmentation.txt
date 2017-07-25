@@ -1,0 +1,12 @@
+#ㅎㅇ
+
+> for batch in datagen.flow(~ 여기에 save_to_dir='' , save_prefix='', save_format='') 이거 있음 자동으로 저장해주는듯
+
+plt.imsave 안해도됨
+
+근데 저 dataget.flow  for는 무한으로 돌아간다고함 break 문 꼭
+ㅎㅎ
+
+
+
+
