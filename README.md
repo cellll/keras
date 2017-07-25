@@ -83,3 +83,6 @@ model = load_model('my_model.h5')
 - EarlyStopping() 이라는 함수가있따 저거 걍 콜백 model.fit 에 콜백 파라미터로 넣어주면 지가하는듯
 - keras.callbacks.EarlyStopping(monitor='val_loss', mode='auto' ..... )뭐 이런건데 overfitting 되는 시점 (val_loss가 늘어나는시점) 이 되면 지가 걍 끄는듯 굿
 
+## code level
+
+**Dense 레이어 : 이거 많이 나옴**
