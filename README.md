@@ -62,3 +62,5 @@ model = load_model('my_model.h5')
   -> model = load_뭐시기(모델.h5) 이렇게 해서 쓰면될듯 인퍼런스모듈에서는
   
 끝
+
+  
