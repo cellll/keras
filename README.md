@@ -92,8 +92,13 @@ model = load_model('my_model.h5')
 - 8은 출력 수 
 - input_dim : 입력 수 
 - init : weight 초기화 방법 
-*'uniform' : 균일 분포
-*'normal' : 가우시안 분포
+   'uniform' : 균일 분포 
+   'normal' : 가우시안 분포
+- activation : 활성 함수 
+ linear / relu / sigmoid/ softmax 가 있다고함 
+ sigmoid는 0~1인데 binary classification 에서 쓰인다고하고 softmax도 0~1일건데 기억안남 multi class classification에서 쓴다 
+
+
 
 먼말인지모름
 ㅎㅇ
