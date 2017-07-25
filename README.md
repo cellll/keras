@@ -35,4 +35,7 @@ model.evaluate 하면 저거 뭐야 loss랑 metrics  나오고
 
 model.predict하면 inference 됨 (classification) 
 
+-->> inference할때 hdf5 로 된 모델 load -> model.predict 하면 될듯
+--->> 로드하는게 model로 알아서 들어가는지는 모름 확인해야됨
+
 
