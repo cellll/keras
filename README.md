@@ -77,4 +77,9 @@ model = load_model('my_model.h5')
 
 ㅎㅇ
 
+## 조기종료
+- overfitting 되는 시점을 지가 알아서 발견해주는 거도잇음 좋음
+
+- EarlyStopping() 이라는 함수가있따 저거 걍 콜백 model.fit 에 콜백 파라미터로 넣어주면 지가하는듯
+- keras.callbacks.EarlyStopping(monitor='val_loss', mode='auto' ..... )뭐 이런건데 overfitting 되는 시점 (val_loss가 늘어나는시점) 이 되면 지가 걍 끄는듯 굿
 
