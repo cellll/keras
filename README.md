@@ -92,8 +92,8 @@ model = load_model('my_model.h5')
 - 8은 출력 수 
 - input_dim : 입력 수 
 - init : weight 초기화 방법 
-+'uniform' : 균일 분포+
-+'normal' : 가우시안 분포+
+*'uniform' : 균일 분포
+*'normal' : 가우시안 분포
 
 먼말인지모름
 ㅎㅇ
