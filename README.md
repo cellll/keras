@@ -83,22 +83,6 @@ model = load_model('my_model.h5')
 - EarlyStopping() 이라는 함수가있따 저거 걍 콜백 model.fit 에 콜백 파라미터로 넣어주면 지가하는듯
 - keras.callbacks.EarlyStopping(monitor='val_loss', mode='auto' ..... )뭐 이런건데 overfitting 되는 시점 (val_loss가 늘어나는시점) 이 되면 지가 걍 끄는듯 굿
 
-## code level
-
-**Dense 레이어 : 이거 많이 나옴**
-- 출력과 입력을 모두 연결해줌 -> 입력 4개 받아서 출력 8개로 줄수 있다 그러면 32개 연결선 -> 32개가 각각 weight를 갖고 있음 
-    Dense(8, input_dim=4, init='uniform', activation='relu'))
-
-- 8은 출력 수 
-- input_dim : 입력 수 
-- init : weight 초기화 방법 
-   'uniform' : 균일 분포 
-   'normal' : 가우시안 분포
-- activation : 활성 함수 
- linear / relu / sigmoid/ softmax 가 있다고함 
- sigmoid는 0~1인데 binary classification 에서 쓰인다고하고 softmax도 0~1일건데 기억안남 multi class classification에서 쓴다 
-
-
 
 먼말인지모름
 ㅎㅇ
