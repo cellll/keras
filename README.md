@@ -86,3 +86,14 @@ model = load_model('my_model.h5')
 ## code level
 
 **Dense 레이어 : 이거 많이 나옴**
+- 출력과 입력을 모두 연결해줌 -> 입력 4개 받아서 출력 8개로 줄수 있다 그러면 32개 연결선 -> 32개가 각각 weight를 갖고 있음 
+    Dense(8, input_dim=4, init='uniform', activation='relu'))
+
+- 8은 출력 수 
+- input_dim : 입력 수 
+- init : weight 초기화 방법 
++'uniform' : 균일 분포+
++'normal' : 가우시안 분포+
+
+먼말인지모름
+ㅎㅇ
