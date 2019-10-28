@@ -1,11 +1,9 @@
-#ㅎㅇ
 
-> for batch in datagen.flow(~ 여기에 save_to_dir='' , save_prefix='', save_format='') 이거 있음 자동으로 저장해주는듯
+> for batch in datagen.flow(~ 여기에 save_to_dir='' , save_prefix='', save_format='') 결과 이미지 자동 저장
 
-plt.imsave 안해도됨
+plt.imsave 안해줘도 됨
 
-근데 저 dataget.flow  for는 무한으로 돌아간다고함 break 문 꼭
-ㅎㅎ
+** dataget.flow  for는 무한 동작 -> break 문 꼭 사용
 
 
 
