@@ -12,13 +12,11 @@
    'normal' : 가우시안 분포
 - activation : 활성 함수 
  linear / relu / sigmoid/ softmax 가 있다고함 
- sigmoid는 0~1인데 binary classification 에서 쓰인다고하고 softmax도 0~1일건데 기억안남 multi class classification에서 쓴다 
+ sigmoid는 0~1인데 binary classification 에서 사용됨, softmax -> multi class classification
 
 
 
 ## random seed : random seed 고정 안시키면 매번 실행마다 결과가 달라짐 
-- np.random.seed(5) 이러ㅏㅎ게하면 매번 5로 뭔가를 한다고함 그래서 결과가 안달라짐
-뭔진모름
 
 ## Keras GPU Memory Fraction
 
@@ -28,8 +26,4 @@
     config = tf.ConfigProto()
     config.gpu_options.per_process_gpu_memory_fraction = 0.3
     set_session(tf.Session(config=config))
-
-
-이렇게 한다고함
-
 
